@@ -1,0 +1,6 @@
+{
+  "description": "ASAIR DHT20 humidity and temperature sensor (https://cdn-shop.adafruit.com/product-files/5183/5193_DHT20.pdf). Wraps https://github.com/RobTillaart/DHT20",
+  "license": "MIT",
+  "name": "dht20",
+  "version": "0.0.2"
+}

@@ -1,0 +1,136 @@
+{
+  "description": "Patch for testing sensor. Run in debug mode.",
+  "links": [
+    {
+      "id": "By-0x4DrCo",
+      "input": {
+        "nodeId": "SyeAgEwBCo",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HyAxEDHRj",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "Hkd-NPHAo",
+      "input": {
+        "nodeId": "HyAxEDHRj",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "BJQA7DBRi",
+        "pinKey": "HkG9OmDBAs"
+      }
+    },
+    {
+      "id": "B17V4wHCs",
+      "input": {
+        "nodeId": "BJQA7DBRi",
+        "pinKey": "H1GdMPHRs"
+      },
+      "output": {
+        "nodeId": "HJJVNDrRo",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "B1PENDBRj",
+      "input": {
+        "nodeId": "rk9C7wHCs",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJQA7DBRi",
+        "pinKey": "rJ5d7DBRs"
+      }
+    },
+    {
+      "id": "SkF4NwSCj",
+      "input": {
+        "nodeId": "ryek4DS0o",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJQA7DBRi",
+        "pinKey": "ryxq_mwB0j"
+      }
+    },
+    {
+      "id": "BycNEPHCj",
+      "input": {
+        "nodeId": "rk3lJEvBCo",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "BJQA7DBRi",
+        "pinKey": "SyWqu7DSAi"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BJQA7DBRi",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "@/hygrometer-thermometer"
+    },
+    {
+      "id": "rk9C7wHCs",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "ryek4DS0o",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "rk3lJEvBCo",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "HyAxEDHRj",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "SyeAgEwBCo",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 3
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "HJJVNDrRo",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "xod/core/clock"
+    }
+  ]
+}

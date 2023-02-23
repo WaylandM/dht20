@@ -1,0 +1,36 @@
+{
+  "description": "Create a dht20-device.",
+  "nodes": [
+    {
+      "description": "I²C bus.",
+      "id": "HkFO4EHRs",
+      "label": "I2C",
+      "position": {
+        "units": "slots",
+        "x": -16,
+        "y": -3
+      },
+      "type": "xod/i2c/input-i2c"
+    },
+    {
+      "id": "ByeKE4BAi",
+      "position": {
+        "units": "slots",
+        "x": -16,
+        "y": -2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "A dht20-device.",
+      "id": "S1_F4VBCo",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": -16,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/output-self"
+    }
+  ]
+}
