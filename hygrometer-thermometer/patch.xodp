@@ -213,7 +213,7 @@
       "boundLiterals": {
         "__out__": "Continuously"
       },
-      "description": "Update. Triggers new read.",
+      "description": "Update. Triggers new read. Interval between pulses must be greater than 1 second.",
       "id": "H1GdMPHRs",
       "label": "UPD",
       "position": {
@@ -330,7 +330,7 @@
       "label": "Done",
       "position": {
         "units": "slots",
-        "x": 10,
+        "x": 11,
         "y": 3
       },
       "type": "xod/patch-nodes/output-pulse"

@@ -8,8 +8,8 @@ node {
             return;
 
         auto sensor = getValue<input_DEV>(ctx);
-        uint8_t errorCode = abs(sensor->read());
-        emitValue<output_Error>(ctx, errorCode);
+        int errorCode = sensor->read();
+        emitValue<output_Error>(ctx, abs(errorCode));
         if (errorCode!=0) {
             raiseError<output_RH>(ctx);
             raiseError<output_Temp>(ctx);

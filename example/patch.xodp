@@ -124,6 +124,9 @@
       "type": "xod/debug/watch"
     },
     {
+      "boundLiterals": {
+        "B13SCNhl-": "1.1"
+      },
       "id": "HJJVNDrRo",
       "position": {
         "units": "slots",
